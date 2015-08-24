@@ -1,0 +1,33 @@
+{
+  "name": "hubot-ingress-linkrange",
+  "description": "A Hubot script for ingress link range calculation",
+  "version": "0.0.1",
+  "author": "c2nprds",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "ingress",
+    "range",
+    "link"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/c2nprds/hubot-ingress-linkrange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/c2nprds/hubot-ingress-linkrange/issues"
+  },
+
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {},
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  }
+}
