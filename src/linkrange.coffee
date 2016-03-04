@@ -20,7 +20,7 @@ module.exports = (robot) ->
       multiplier(b) - multiplier(a)
 
     average     = Math.floor(total/8)
-    baseRange   = 160*Math.pow(average, 4)
+    baseRange   = 160*Math.pow(total/8, 4)
 
     msg.send "PortalLevel: #{average}\n"+
              "MODS: #{linkamps}\n"+
